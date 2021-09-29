@@ -1,0 +1,102 @@
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      /* navigation bar */
+      .nav-bar {
+        padding: 5px;
+        background-color: black;
+        /* display: inline-flex; */
+        color: white;
+        text-align: center;
+        justify-content: center;
+        /* margin: 12px 22px; */
+      }
+      img {
+        width: 50px;
+      }
+      .img,
+      .title,
+      .icon {
+        display: inline-block;
+      }
+      .img {
+        float: left;
+        line-height: 2px;
+        margin-left: 18px;
+      }
+      .icon {
+        line-height: 55px;
+        float: right;
+        font-size: 30px;
+        margin-right: 17px;
+      }
+      .title {
+        line-height: 55px;
+        font-size: 34px;
+      }
+      /* banner */
+      .banner {
+        border: 5px solid black;
+        height: 250px;
+        margin: 12px 0;
+        text-align: center;
+        line-height: 250px;
+      }
+      /* content */
+      .con {
+        text-align: center;
+      }
+      h1 {
+        margin: 42px 0;
+  
+        font-size: 44px;
+      }
+      .con1 {
+        width: 80%;
+        margin: auto;
+      }
+      .content {
+        /* border: 5px solid grey; */
+        display: inline-block;
+        border-radius: 19px;
+        padding: 12px;
+        color: white;
+        background-color: rgba(128, 128, 128, 0.719);
+        box-shadow: grey 0px 0px 12px;
+        margin: 12px;
+      }
+      .content:hover{
+          transition: 0.3s;
+          box-shadow: grey 0px 0px 52px;
+          cursor: pointer;
+          padding: 14px;
+      }
+      /* About section */
+      .about {
+        text-align: center;
+        padding: 12px 52px;
+      }
+      p{
+          text-align: left;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 15px;
+          /* padding: 54px; */
+      }
+      /* contact */
+      .contact{
+          text-align: center;
+          background-color: khaki;
+          height: 400px;
+          margin: auto;
+          justify-content: center;
+  
+      }
+      .form{
+          background-color: white;
+          width: 500px;
+      }
+     
+  
