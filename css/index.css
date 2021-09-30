@@ -18,8 +18,7 @@
         width: 50px;
       }
       .img,
-      .title,
-      .icon {
+      .title{
         display: inline-block;
       }
       .img {
@@ -27,16 +26,76 @@
         line-height: 2px;
         margin-left: 18px;
       }
-      .icon {
-        line-height: 55px;
-        float: right;
-        font-size: 30px;
-        margin-right: 17px;
-      }
       .title {
         line-height: 55px;
         font-size: 34px;
       }
+      /* Sidebar */
+      .sidebar{
+        position: fixed;
+        top: 65px;
+        right:-100%;
+        width: 25%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.849);
+        transition: 0.7s;
+
+      }
+
+      .sidebar li{
+        list-style: none;
+        margin: 12px 22px;
+        padding: 22px;
+        border-bottom: 2px solid black;
+      }
+
+      .sidebar li a{
+        text-decoration: none;
+        color: white;
+      }
+      .hide-btn{
+        display: none;
+      }
+      .show-btn, .hide-btn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        margin-right: 12px;
+        line-height: 70px;
+     /* display: none; */
+    }
+      #chk{
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+      }
+      #chk:checked~.sidebar{
+        /* left: ; */
+        right: 0px;
+        /* display: block; */
+      }
+      #chk:checked~.show-btn{
+        display: none;
+        /* background-color: black; */
+      }
+      #chk:checked~.hide-btn{
+        display: block;
+
+      }
+      .logsin{
+
+        position:fixed;
+        bottom: 20px;
+        width: 340px;
+        display: block;
+        
+
+      }
+      .logsin a{
+        color: gold;
+
+      }
+
       /* banner */
       .banner {
         border: 5px solid black;
