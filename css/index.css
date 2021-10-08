@@ -4,51 +4,68 @@
         margin: 0;
         box-sizing: border-box;
       }
+      body{
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;      }
       /* navigation bar */
+      
       .nav-bar {
-        padding: 5px;
+        /* padding: 1px; */
         background-color: black;
-        /* display: inline-flex; */
         color: white;
         text-align: center;
         justify-content: center;
-        /* margin: 12px 22px; */
+        /* display: inline-flex; */
+        display: inline-block;
+        width: 100%;
+        height: 78px;
       }
       img {
         width: 50px;
+        /* line-height: 32px; */
       }
       .img,
       .title{
         display: inline-block;
+        line-height: 110px;
+        float: left;
+        
       }
       .img {
-        float: left;
-        line-height: 2px;
+        /* line-height: 2px; */
         margin-left: 18px;
       }
       .title {
-        line-height: 55px;
+        line-height: 69px;
         font-size: 34px;
+        margin-left: 18px;
+        font-weight: bold;
       }
-      /* Sidebar */
-      .sidebar{
-        position: fixed;
-        top: 65px;
+      /* Sidebar  */
+       .sidebar{
+        /* position:fixed; */
+        /* top: 65px;
         right:-100%;
-        width: 25%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.849);
+        width: 30%;
+        height: 100%; */
+        float: right;
+        display: flex;
         transition: 0.7s;
 
       }
 
       .sidebar li{
         list-style: none;
-        margin: 12px 22px;
+        margin: 8px 10px;
         padding: 22px;
         border-bottom: 2px solid black;
+        line-height: 8px;
+        cursor: pointer;
       }
 
+      .sidebar li:hover{
+        background-color: red;
+      }
       .sidebar li a{
         text-decoration: none;
         color: white;
@@ -57,39 +74,38 @@
         display: none;
       }
       .show-btn, .hide-btn{
-        font-size: 30px;
+        display: none;
+        /* font-size: 30px;
         color: white;
         float: right;
         margin-right: 12px;
-        line-height: 70px;
+        line-height: 70px; */
      /* display: none; */
     }
       #chk{
-        position: absolute;
+        /* position: absolute; */
         visibility: hidden;
-        z-index: -10;
+        /* z-index: -10; */
       }
-      #chk:checked~.sidebar{
+      /* #chk:checked~.sidebar{
         /* left: ; */
-        right: 0px;
+        /* right: 0px; */
         /* display: block; */
-      }
-      #chk:checked~.show-btn{
+      /* } */ 
+      /* #chk:checked~.show-btn{
         display: none;
         /* background-color: black; */
-      }
+      /* }
       #chk:checked~.hide-btn{
         display: block;
 
-      }
+      } */ 
       .logsin{
 
         position:fixed;
         bottom: 20px;
         width: 340px;
         display: block;
-        
-
       }
       .logsin a{
         color: gold;
@@ -99,19 +115,27 @@
       /* banner */
       .banner {
         border: 5px solid black;
-        height: 250px;
-        margin: 12px 0;
+        height: 300px;
+        margin: 22px 0;
         text-align: center;
         line-height: 250px;
+        background-image: url(../Asset/TechRoad.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       /* content */
       .con {
         text-align: center;
       }
+
       h1 {
         margin: 42px 0;
-  
-        font-size: 44px;
+        font-size: 54px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: rgb(1, 2, 3) 0 0px 43px;
+        transition: 2s;
       }
       .con1 {
         width: 80%;
@@ -121,17 +145,22 @@
         /* border: 5px solid grey; */
         display: inline-block;
         border-radius: 19px;
-        padding: 12px;
-        color: white;
-        background-color: rgba(128, 128, 128, 0.719);
-        box-shadow: grey 0px 0px 12px;
+        padding: 62px;
+        color: red;
+        font-weight: bold;
+        background-color: black;
+        box-shadow: grey 0px 0px 22px ;
+        transition: 1s;
+        transition: steps(0.1);
+        /* box-shadow: grey 0px 0px 12px; */
         margin: 12px;
+
       }
       .content:hover{
           transition: 0.3s;
-          box-shadow: grey 0px 0px 52px;
+          box-shadow: red 0px 0px 12px;
           cursor: pointer;
-          padding: 14px;
+          padding: 63px;
       }
       /* About section */
       .about {
@@ -147,7 +176,8 @@
       /* contact */
       .contact{
           text-align: center;
-          background-color: khaki;
+          background-color: black;
+          color: red;
           height: 400px;
           margin: auto;
           justify-content: center;
@@ -157,5 +187,85 @@
           background-color: white;
           width: 500px;
       }
+      /* Team members */
+      .team{
+        display: flex;
+        color: red;
+      }
+      .card{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.822);
+        border: 2px solid grey;
+        box-shadow: grey 0 0 23px;
+        width: 25%;
+        margin: 22px;
+        
+      }
+      .card img{
+        border-radius: 100%;
+        width: 55%;
+        padding: 12px;
+      }
+      .icons ul {
+
+        list-style: none;
+
+        margin: 20px;
+
+    }
+
+    .icons ul li {
+
+        display: inline-block;
+
+        width: 35px;
+
+        height: 35px;
+
+        padding: 8px;
+
+        background-color: #424242a8;
+
+        border-radius: 50%;
+
+        margin-right: 10px;
+
+    }
+
+    .icons ul li i {
+
+        color: white;
+
+        font-size: 14px;
+
+        line-height: 20px;
+
+        text-align: center;
+
+    }
+
+    .icons ul li:nth-child(1):hover {
+
+        background-color: #5e54eb;
+
+    }
+
+    .icons ul li:nth-child(2):hover {
+
+        background-color: skyblue;
+
+    }
+
+    .icons ul li:nth-child(3):hover {
+
+        background-color: orangered;
+
+    }
+
+    .icons ul li:nth-child(4):hover {
+
+        background-color: rgb(94, 84, 235);
+
+    }
      
   
