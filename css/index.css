@@ -24,18 +24,16 @@
         width: 50px;
         /* line-height: 32px; */
       }
-      .img,
-      .title{
+      .img,.title{
         display: inline-block;
         line-height: 110px;
         float: left;
-        
-      }
-      .img {
         /* line-height: 2px; */
         margin-left: 18px;
       }
+
       .title {
+        display: inline-block;
         line-height: 69px;
         font-size: 34px;
         margin-left: 18px;
@@ -70,36 +68,18 @@
         text-decoration: none;
         color: white;
       }
-      .hide-btn{
+      #chk{
         display: none;
       }
       .show-btn, .hide-btn{
         display: none;
-        /* font-size: 30px;
+        font-size: 30px;
         color: white;
         float: right;
         margin-right: 12px;
-        line-height: 70px; */
+        line-height: 70px; 
      /* display: none; */
     }
-      #chk{
-        /* position: absolute; */
-        visibility: hidden;
-        /* z-index: -10; */
-      }
-      /* #chk:checked~.sidebar{
-        /* left: ; */
-        /* right: 0px; */
-        /* display: block; */
-      /* } */ 
-      /* #chk:checked~.show-btn{
-        display: none;
-        /* background-color: black; */
-      /* }
-      #chk:checked~.hide-btn{
-        display: block;
-
-      } */ 
       .logsin{
 
         position:fixed;
@@ -110,6 +90,57 @@
       .logsin a{
         color: gold;
 
+      }
+      @media screen and (max-width:900px) 
+    {
+      .show-btn{
+        display: block;
+        margin-right: 20px;
+      }
+      nav{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        text-align: center;
+      }
+      .nav-bar{
+        float:none;
+        text-align: center;
+      }
+      .title{
+        display: inline-block;
+        float: none;
+      }
+
+        .sidebar{
+          position:fixed;
+           top: 76px;
+          right:-100%;
+          width: 38%;
+          height: 100%; 
+          /* float: right; */
+          display: block;
+          background-color: black;
+          transition: 0.7s;
+        }
+        .sidebar li{
+          border-bottom: 1px solid silver;
+          border-radius: 5px;
+
+        }
+        #chk:checked~.sidebar{
+          right: 0px;
+          /* display: none; */
+        } 
+         #chk:checked~.show-btn{ 
+          display: none;
+        /* background-color: black;  */
+        }
+        #chk:checked~.hide-btn{
+          display: block;
+  
+        } 
+        
       }
 
       /* banner */
@@ -146,13 +177,18 @@
         display: inline-block;
         border-radius: 19px;
         padding: 62px;
+        width: 278px;
+        height: 178px;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 9px;
+        text-align: end;
         color: red;
         font-weight: bold;
         background-color: black;
         box-shadow: grey 0px 0px 22px ;
         transition: 1s;
         transition: steps(0.1);
-        /* box-shadow: grey 0px 0px 12px; */
         margin: 12px;
 
       }
