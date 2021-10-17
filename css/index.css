@@ -22,7 +22,7 @@
       }
       img {
         width: 120px;
-        line-height: 32px;
+        /* line-height: 32px; */
       }
       .img,.title{
         display: inline-block;
