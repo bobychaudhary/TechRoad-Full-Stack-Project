@@ -94,8 +94,8 @@
       
       /* banner */
       .banner {
-        border: 5px solid black;
-        height: 300px;
+        /* border: 5px solid black; */
+        height: 400px;
         margin: 22px 0;
         text-align: center;
         line-height: 250px;
