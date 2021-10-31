@@ -1,0 +1,89 @@
+#heading{
+    text-align: center;
+  }
+  .team12{
+    display:flex;
+    color: red;
+    width: 100%;
+  }
+  .team12 .card{
+    text-align: center;
+    /* margin: auto auto; */
+    background-color: rgba(0, 0, 0, 0.822);
+    border: 2px solid grey;
+    box-shadow: grey 0 0 23px;
+    width: 25%;
+    margin: 22px;
+  }
+  .team12 .card p{
+    text-align: center;
+  }
+  .team12 .card img{
+    border-radius: 100%;
+    width: 55%;
+    padding: 12px;
+    /* text-align: center; */
+    margin: 12px auto;
+  }
+  .icons ul {
+    
+    list-style: none;
+    
+    margin: 20px;
+    /* text-align:justify; */
+    
+  }
+  
+  .icons ul li {
+    
+    display: inline-block;
+    
+    width: 39px;
+
+    height: 35px;
+    
+    padding: 4px;
+    
+    background-color: #424242a8;
+    
+    border-radius: 50%;
+    
+    margin-right: 10px;
+    
+  }
+  
+  .icons ul li i {
+    
+    color: white;
+    
+    font-size: 14px;
+    
+    line-height: 20px;
+    
+    text-align: center;
+    
+  }
+  
+  .icons ul li:nth-child(1):hover {
+
+    background-color: #5e54eb;
+    
+  }
+  
+  .icons ul li:nth-child(2):hover {
+    
+    background-color: skyblue;
+    
+  }
+  
+  .icons ul li:nth-child(3):hover {
+    
+    background-color: orangered;
+    
+  }
+  
+  .icons ul li:nth-child(4):hover {
+    
+    background-color: rgb(94, 84, 235);
+
+  }
