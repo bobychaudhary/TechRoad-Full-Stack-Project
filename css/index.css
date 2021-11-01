@@ -138,25 +138,10 @@ background: url(https://files.techmahindra.com/static/img/techm-cyber-security-b
         box-shadow: grey 0px 0px 22px ;
         margin: 12px;
       }
-      .v:hover{
-        animation-name:kl;
-        animation-duration: 2s;
-        animation-iteration-count: 4;
-        
 
-      }
       .v{
         display: inline-block;
       }
-      @keyframes kl{
-        from{
-          transform: rotate(125deg);
-        }
-        to{
-          transform:scale(1);
-        }
-      }
-    
       .content:hover{
           transition: 0.3s;
           box-shadow: 0px 0px 1px 2px red;

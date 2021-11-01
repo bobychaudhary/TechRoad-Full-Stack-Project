@@ -29,6 +29,63 @@
       p{
         color: white;
       }
+      .img-detail-container{
+        /* border: 2px solid red; */
+        width: 80%;
+        height: 243px;
+        margin: auto;
+        display: flex;
+        margin-top: 40px;
+        
+      }
+      .Img-container{
+        margin: 0;
+        padding: 0;
+        /* border: 2px solid white; */
+        flex-direction: row;
+        width: 333px;
+        height: 238px;
+      }
+      .details-container{
+        width: 80%;
+        flex-direction: row;
+        height: 238px;
+        border: 2px solid rgb(25, 26, 25);
+        padding: 16px 22px;
+  
+      }
+      .details-container h1{
+        padding: 0;
+        margin: 0;
+      }
+      .details-container p{
+        padding: 0 26px;
+        margin-top: 20px;
+        /* line-height: 19px; */
+
+      }
+      button{
+        width: 23px;
+      }
+      /* .btn
+      {
+        display: inline-block;
+        margin-left: 35px;
+        
+      } */
+      .btn a{
+        border: 2px solid red;
+        padding: 12px 20px;
+        text-decoration: none;
+        margin:12px;
+        color: white;
+        background-color: #f31a1a;
+      }
+      .btn a:hover{
+        background-color: black;
+        border-radius: 9px;
+      }
+    
     </style>
   </head>
 
@@ -38,7 +95,6 @@
         <div class="img">
           <img src="./Asset/Free_Sample_By_Wix.jpg" />
         </div>
-        <!-- <div class="title">TechRoad</div> -->
         <input type="checkbox" name="" id="chk" />
         <label for="chk" class="show-btn"><i class="fa fa-bars"></i></label>
         <label for="chk" class="hide-btn"><i class="fa fa-close"></i></label>
@@ -47,9 +103,7 @@
           <li><a href="#rd">RoadMaps</a></li>
           <li><a href="#ab">About US</a></li>
           <li><a href="#cu">Contact us</a></li>
-          <!-- <li><a href="#">Log in/Sign up</a></li> -->
-          <!-- <li><a href="#">Ethical Hacker</a></li> -->
-          <!-- <li class="logsin"><a href="#"> Login/ Sign up</a></li> -->
+      
         </ul>
       </div>
     </nav>
@@ -68,35 +122,11 @@
         >TechRoad is a community effort to create roadmaps, guides and other educational content to help guide the developers in picking up the path and guide their learnings.</p>
       <p class="button"><a style="color: white;text-decoration: none;" href="#rd">GET STARTED</a></p>
       </div>
-      <!-- <div class="ban">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./Asset/TechRoad (2)-1.jpg" style="height: 380px;" class="d-block w-100" alt="..." id="#mg">
-            </div>
-            <div class="carousel-item">
-              <img src="./Asset/TechRoad.gif"  style="height: 380px;" class="d-block w-100" alt="..." id="#mg">
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-            </div> -->
-      <!-- </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
     </section>
 
     <section class="con" id="rd" >
       <h1 id="rm" style="font-size: 64px;">Road Maps Categories</h1>
-      <div class="v">
+      <!-- <div class="v">
         
         <a href="./Pages/software.html">
           <p
@@ -123,7 +153,7 @@
     </div>
       <div class="v">
 
-        <!-- <div class="con1"> -->
+        <div class="con1">
           <a href="./Pages/web.html">
             <p
             class="content"
@@ -136,7 +166,7 @@
         ></p>
       </a>
     </div>
-      <!-- </div> -->
+      </div>
       <div class="v">
         
         <a href="./Pages/AI.html">
@@ -170,9 +200,62 @@
             "
         ></p>
       </a>
-    </div>
+    </div>  -->
       <!-- <p class="content">Many More come soon........</p> -->
     </section>
+    <aside>
+      <div class="img-detail-container">
+          <img src="./Asset/android.jpg" class="Img-container" > 
+        </img>
+        <div class="details-container">
+          <h1>Android Developer</h1>
+          <p>When a device goes from just working to actually making life easier, Android is behind it . Android is open to everyone: developers, designers and device makers. That means more people can experiment, imagine and create things that the world has never seen.</p>
+          <p class="btn"><a href="./Pages/Android.html">RoadMap</a></p>
+        </div>
+      </div>
+      <div class="img-detail-container">
+        <div class="details-container">
+          <h1>Ethical Hacking</h1>
+          <p>Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. Carrying out an ethical hack involves duplicating strategies and actions of malicious attackers. ... Also known as “white hats,” ethical hackers are security experts that perform these assessments.</p>
+          <p class="btn"><a href="./Pages/ethical.html">RoadMap</a></p>
+          
+        </div>
+        <img src="./Asset/Ethical hacking.jpg" alt="" class="Img-container">
+      </div>
+      <div class="img-detail-container">
+        <img src="./Asset/webdevelopment.jpg" class="Img-container">
+
+        </img>
+        <div class="details-container">
+          <h1>Web Development</h1>
+          <p>Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
+          <p class="btn"><a href="./Pages/web.html">RoadMap</a></p>
+
+        </div>
+      </div>
+      <div class="img-detail-container">
+        <div class="details-container">
+          <h1>Data Analytics</h1>
+          <p>Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
+          <p class="btn"><a href="./Pages/data_ana.html">RoadMap</a></p>
+          
+        </div>
+        <img src="./Asset/data analysis.jpg" class="Img-container">
+
+        </img>
+      </div>
+      <div class="img-detail-container">
+        <img src="./Asset/AI.jpg" class="Img-container">
+
+        </img>
+        <div class="details-container">
+          <h1>Artificial  Intelleginc</h1>
+          <p>Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
+          <p class="btn"><a href="./Pages/AI.html">RoadMap</a></p>
+
+        </div>
+      </div>
+    </aside>
     <section class="about" id="ab">
       <h1 style="font-size: 64px;">About Tech Road</h1>
       <p>
