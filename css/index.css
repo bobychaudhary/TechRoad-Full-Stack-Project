@@ -498,7 +498,7 @@ footer .right-col h1 {
 footer .border {
   width: 100px;
   height: 4px;
-  background: linear-gradient(to right, #a83279, #ffbb3b);
+  background: linear-gradient(to right,#119fbb,#c64fff,#51fe5d ); 
   margin: 2px;
 }
 footer .newsletter-form {
@@ -528,7 +528,7 @@ footer .btn {
   padding: 18px 40px;
   font-size: 16px;
   color: #f1f1f1;
-  background: linear-gradient(to right, #a83279, #ffbb3b);
+  background: linear-gradient(to right,#119fbb,#c64fff,#51fe5d ); 
   border: none;
   font-weight: 700;
   outline: none;
