@@ -7,30 +7,36 @@
       body{
         text-align: center;
         font-family: 'Noto Sans', sans-serif;    
+        background: linear-gradient(to right,#119fbbb9,#51fe5d52 );
+
       }
       /* navigation bar */
       
       .nav-bar {
-        /* padding: 1px; */
-        background-color: black;
-        color: white;
+        /* #a43ecb,#489087,#45c34a,#189dbe,#baa8a6 */
+        /* #119FBB,#C64FFF,#51FE5D */
+        /* background:linear-gradient(to right,#489087,white); */
+        /* background: linear-gradient(to right,#C64FFF,#51FE5D ); */
+        background: linear-gradient(to right,#119fbbb9,#51fe5d52 );
+
         text-align: center;
         justify-content: center;
-        /* display: inline-flex; */
         display: inline-block;
         width: 100%;
-        height: 78px;
+        position: fixed;
+        margin-bottom: 52px;
+        /* border: 2px solid rgba(0, 0, 0, 0.527); */
+        height: 68px;
       }
       img {
-        width: 120px;
-        /* line-height: 32px; */
-      }
-      .img,.title{
+        width: 220px;
         display: inline-block;
-        line-height: 70px;
+        margin-left: 7px;
         float: left;
-        /* line-height: 2px; */
-        margin-left: 18px;
+        margin-top: 9px;
+        /* line-height: 92px; */
+        /* border: 2px solid red; */
+        /* line-height: 32px; */
       }
 
       .title {
@@ -57,17 +63,20 @@
         list-style: none;
         margin: 8px 10px;
         padding: 22px;
-        border-bottom: 2px solid black;
+        /* border-bottom: 2px solid black; */
         line-height: 8px;
         cursor: pointer;
       }
 
       .sidebar li:hover{
-        background-color: red;
+        /* background-color: red; */
+        background: linear-gradient(to right,#119fbbb9,#51fe5d52 );
+        border-radius: 9px;
+        /* border: 2px solid linear-gradient(to right,#119fbbb9,#51fe5d52 ); */
       }
       .sidebar li a{
         text-decoration: none;
-        color: white;
+        color: linear-gradient(to left,#C64FFF,#51FE5D );
       }
       #chk{
         display: none;
@@ -75,7 +84,7 @@
       .show-btn, .hide-btn{
         display: none;
         font-size: 30px;
-        color: white;
+        color: black;
         float: right;
         margin-right: 12px;
         line-height: 70px; 
@@ -100,18 +109,25 @@
       /* banner */
       .bann1{
        
-background: url(https://files.techmahindra.com/static/img/techm-cyber-security-banner.png);
-          height: 450px;
+/* background: url(../Asset/india.png); */
+          height: 750px;
           width: 100%;
           background-position:center;
           background-size: cover;
+          /* border: 2px solid black; */
+          /* background: linear-gradient(to right,#119fbbb9,#51fe5d52 ); */
+
         
       }
-      
+      .bann1 img{
+        float: right;
+        width: 55%;
+        margin: 72px 19px;
+      }
       /* content */
       .con {
         text-align: center;
-        padding-top: 52px;
+        padding-top: 32px;
       }
       h1 {
         /* margin: 42px 0; */
@@ -123,7 +139,7 @@ background: url(https://files.techmahindra.com/static/img/techm-cyber-security-b
       }
       .content {
         /* border: 5px solid grey; */
-        padding-top: 34px;
+        padding-top: 14px;
         display: inline-block;
         border-radius: 19px;
         padding: 62px;
@@ -166,7 +182,7 @@ background: url(https://files.techmahindra.com/static/img/techm-cyber-security-b
       /* contact */
       .contact{
           text-align: center;
-          background-color: black;
+          /* background: linear-gradient(to right,#119fbbb9,#51fe5d52 ); */
           color: red;
           height: 400px;
           margin: auto;
@@ -178,7 +194,7 @@ background: url(https://files.techmahindra.com/static/img/techm-cyber-security-b
           width: 500px;
       }
       .button{
-        border: 3px solid white;
+        border: 3px solid  black;
         padding: 12px 16px; 
         color: white;
         display: inline-block;
@@ -189,6 +205,8 @@ background: url(https://files.techmahindra.com/static/img/techm-cyber-security-b
       .button:hover{
        color: grey;
        border-color: grey;
+       background: linear-gradient(to right,#119fbbb9,#51fe5d52 );
+       ;
       }
       .button a:hover{
         color: grey;
