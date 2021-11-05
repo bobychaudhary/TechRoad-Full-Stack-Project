@@ -348,6 +348,7 @@ center > p {
   font-family: "Open Sans", sans-serif;
   color: #2e3d49;
   position: relative;
+  z-index: -1;
 }
 .diffSection {
   width: 100%;
@@ -665,6 +666,7 @@ footer .btn:hover {
   .nav-bar {
     float: none;
     text-align: center;
+    background-color: white;
   }
   .bann1 img{
     width: 100%;
