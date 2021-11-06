@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" type="png" href="./Asset/fab.png">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to TechRoad</title>
+    <title>TechRoad</title>
     <link rel="stylesheet" href="./css/index.css" />
+    <!-- <link rel="stylesheet" href="./header.css"> -->
     <script src="https://use.fontawesome.com/221de87d0a.js"></script>
     <!-- <link rel="stylesheet" href="./css/services.css"> -->
     <link
@@ -18,6 +20,77 @@
   </head>
 
   <body>
+
+    <!-- <header id="header">
+      <nav>
+        <div class="logo"><img src="./Asset/techroad-removebg-preview (1).png" alt="logo" /></div>
+        <ul>
+          <li><a class="active" href="">Home</a></li>
+          <li><a href="#portfolio_section">Portfolio</a></li>
+          <li><a href="#team_section">Team</a></li>
+          <li><a href="#services_section">Services</a></li>
+          <li><a href="#contactus_section">Contact</a></li>
+        </ul>
+        <div class="srch">
+          <input type="text" class="search" placeholder="Search here..." /><img
+            src="./Asset/searchicon.jpeg"
+            alt="search"
+            onclick="slide()"
+          />
+        </div>
+        <a class="get-started" href="/Login page/login.html">Get Started</a>
+        <img
+          src="./Asset/icons8-menu-100 (1).png"
+          class="menu"
+          onclick="sideMenu(0)"
+          alt="menu"
+        />
+      </nav>
+      <div class="head-container">
+        <div class="quote">
+          <p>
+            All you need is the plan, the road map, and the courage to press on
+            to your destination
+          </p>
+          <h5>
+            Learning how to understand how technology evolves, using tools like
+            a Technology Road Map, is what you need more than anything to ride
+            on top of the tsunami instead of being crushed by it.
+          </h5>
+          <div class="play">
+            <img src="./Images/play.png" alt="play" /><span
+              ><a
+                href="https://www.youtube.com/watch?v=KFyrgDO1WXk"
+                target="_blank"
+                >Watch Now</a
+              ></span
+            >
+          </div>
+        </div>
+        <div class="svg-image">
+          <img src="./Images/svg1.jpg" alt="svg" />
+        </div>
+      </div>
+      <div class="side-menu" id="side-menu">
+        <div class="close" onclick="sideMenu(1)">
+          <img src="images/icon/close.png" alt="" />
+        </div>
+        <div class="user">
+          <img src="images/creator/roshan.jpeg" alt="Username" />
+          <p>roshank9419</p>
+        </div>
+        <ul>
+          <li><a href="#about_section">About</a></li>
+          <li><a href="#portfolio_section">Portfolio</a></li>
+          <li><a href="#team_section">Team</a></li>
+          <li><a href="#services_section">Services</a></li>
+          <li><a href="#contactus_section">Contact</a></li>
+          <li><a href="#feedBACK">Feedback</a></li>
+        </ul>
+      </div>
+    </header> -->
+  </body>
+</html>
     <div class="nav-ban">
 
       <nav>
@@ -30,32 +103,38 @@
         <label for="chk" class="hide-btn"><i class="fa fa-close"></i></label>
         <ul class="sidebar">
           <li><a href="#na">Home</a></li>
-          <li><a href="#rd">RoadMaps</a></li>
-          <li><a href="#ab">About US</a></li>
+          <li><a href="#rd">Roadmaps</a></li>
+          <li><a href="#about_section">About US</a></li>
           <li><a href="#cu">Contact us</a></li>
-          
         </ul>
+        <div class="search">
+          <input type="text" class="src" placeholder="search here...."><img src="./Asset/searchicon.jpeg" alt="">
+        </div>
+        <a class="get-started" href="/Login page/login.html">Get Started</a>
+
       </div>
-    </nav>
+      </nav>
+
+
     <section class="banner">
       <div class="bann1">
-        <img src="./Asset/india.png" alt="" >
-        <h1 
-        >All you need is the plan, the road map, and the courage to press on to your destination</h1>
-        <!-- <h4
-        style="padding-top: 11px;color: rgba(0, 0, 0, 0.952);font-size: 22px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-left: 50px;">Hey there! 👋</h4> -->
-        <p class="para">Learning how to understand how technology evolves, using tools like a Technology Road Map, Is what you need more than anything to ride on top of the tsunami instead of being crushed by it</p>
-        <p class="button"><a style="color: black;text-decoration: none;" href="#rd">GET STARTED</a></p>
+        <img src="./Asset/headerimg.jpg" alt="" >
+        <div class="header-content">
+
+          <p class="h-heading"
+          >All you need is the plan, the roadmap, and the courage to press on to your destination</p>
+          <!-- <h4
+            style="padding-top: 11px;color: rgba(0, 0, 0, 0.952);font-size: 22px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-left: 50px;">Hey there! 👋</h4> -->
+            <p class="para">Learning how to understand how technology evolves, using tools like a Technology RoadMap, Is what you need more than anything to ride on top of the tsunami instead of being crushed by it</p>
+            <p class="button"><a style="color: black;text-decoration: none;" href="#rd">GET STARTED</a></p>
+          </div>
       </div>
     </section>
   </div>
 
-    <div class="r-road">
-
-      
-      
-      <section class="con" id="rd"  >
-        <h1 id="rm" style="font-size: 50px;">Road Maps Categories</h1>
+    <div class="r-road" id="rd">
+      <section class="con"   >
+        <h1 id="rm" style="font-size: 50px;">Roadmap Categories</h1>
         
         <div class="dis">
           
@@ -140,6 +219,9 @@
     
   </section>
   <div class="skew1"></div>
+  <div class="skew2"></div>
+  <div class="skew3"></div>
+
   <section class="services">
     <div class="all-service">
       <a href="./Pages/Android.html"
@@ -184,57 +266,95 @@
           </div>
         </a>
         </div>
-  </section>
-    
-    <aside id="dis1" >
+      </section>
+      
+  <aside id="dis1" >
+
       <div class="img-detail-container">
-        <img src="./Asset/android.jpg" class="Img-container" > 
+        <img src="https://media.istockphoto.com/photos/and-ai-technology-global-communication-network-concept-business-graph-picture-id1281389422?b=1&k=20&m=1281389422&s=170667a&w=0&h=Ijl3j64QcB2FpE9gOzir1AjdOfL9AGj1UhVvETFt8vA=" class="Img-container">
+      
       </img>
       <div class="details-container">
-        <h1>Android Developer</h1>
-        <p>When a device goes from just working to actually making life easier, Android is behind it . Android is open to everyone: developers, designers and device makers. That means more people can experiment, imagine and create things that the world</p>
-        <p class="btn"><a href="./Pages/Android.html">RoadMap</a></p>
+        <h1>Artificial  Intelleginc</h1>
+        <p>Artificial intelligence is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans</p>
+        <p class="btn"><a href="./Pages/AI.html">View Roadmap</a></p>
+        
       </div>
     </div>
-      <div class="img-detail-container">
-        <img src="./Asset/Ethical hacking.jpg" alt="" class="Img-container">
-        <div class="details-container">
-          <h1>Ethical Hacking</h1>
-          <p>Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. Carrying out an ethical hack involves duplicating strategies and actions of malicious attackers. ... Also known as “white hats,”</p>
-          <p class="btn"><a href="./Pages/ethical.html">RoadMap</a></p>
-          
-        </div>
-      </div>
-      <div class="img-detail-container">
-        <img src="./Asset/webdevelopment.jpg" class="Img-container">
+    
+    <div class="img-detail-container">
+      <img src="./Asset/ml.jpg" class="Img-container">
+      
+    </img>
+    <div class="details-container">
+      <h1>MAchine Learing</h1>
+      <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+      <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+      
+    </div>
+  </div>
+  <div class="img-detail-container">
+    <img src="./Asset/webdevelopment.jpg" class="Img-container">
 
-        </img>
-        <div class="details-container">
-          <h1>Web Development</h1>
-          <p>Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
-          <p class="btn"><a href="./Pages/web.html">RoadMap</a></p>
+    </img>
+    <div class="details-container">
+      <h1>Web Development</h1>
+      <p>Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
+      <p class="btn"><a href="./Pages/web.html">View Roadmap</a></p>
 
-        </div>
+    </div>
+  </div>
+
+    <div class="img-detail-container">
+      <img src="./Asset/android.jpg" class="Img-container" > 
+    </img>
+    <div class="details-container">
+      <h1>Android Developer</h1>
+        <p>When a device goes from just working to actually making life easier, Android is behind it . Android is open to everyone: developers, designers and device makers. That means more people can experiment, imagine and create things that the world</p>
+        <p class="btn"><a href="./Pages/Android.html">View Roadmap</a></p>
       </div>
-      <div class="img-detail-container">
-        <img src="./Asset/data analysis.jpg" class="Img-container">
-        
+    </div>
+    <div class="img-detail-container">
+      <img src="./Asset/data analysis.jpg" class="Img-container">
+      
+    </img>
+    <div class="details-container">
+      <h1>Data Analytics</h1>
+<p>Analytics is the systematic computational analysis of data or statistics. It is used for the discovery, interpretation, and communication of meaningful patterns in data.</p>
+      <p class="btn"><a href="./Pages/data_ana.html">View Roadmap</a></p>
+      
+    </div>
+    </div>
+    <div class="img-detail-container">
+      <img src="./Asset/software.png" class="Img-container">
+
       </img>
       <div class="details-container">
-        <h1>Data Analytics</h1>
-<p>Analytics is the systematic computational analysis of data or statistics. It is used for the discovery, interpretation, and communication of meaningful patterns in data.</p>
-        <p class="btn"><a href="./Pages/data_ana.html">RoadMap</a></p>
-        
+        <h1>Software Developer</h1>
+         <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+        <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+
       </div>
-      </div>
-      <div class="img-detail-container">
-        <img src="./Asset/AI.jpg" class="Img-container">
+    </div>
+    <div class="img-detail-container">
+      <img src="./Asset/software.png" class="Img-container">
+      
+    </img>
+    <div class="details-container">
+      <h1>Internet of Things</h1>
+      <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+      <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+      
+    </div>
+  </div>
+    <div class="img-detail-container">
+      <img src="./Asset/software.png" class="Img-container">
 
         </img>
         <div class="details-container">
-          <h1>Artificial  Intelleginc</h1>
-<p>Artificial intelligence is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans</p>
-          <p class="btn"><a href="./Pages/AI.html">RoadMap</a></p>
+          <h1>BLOCKCHAIN</h1>
+           <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+          <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
 
         </div>
       </div>
@@ -243,42 +363,267 @@
 
         </img>
         <div class="details-container">
-          <h1>Software Developer</h1>
-<p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
-<p class="btn"><a href="./Pages/software.html">RoadMap</a></p>
+          <h1>Deep Learning</h1>
+           <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+          <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+        </div>
+      </div>
+      <div class="img-detail-container">
+        <img src="./Asset/software.png" class="Img-container">
 
+        </img>
+        <div class="details-container">
+          <h1>Augmented Reality</h1>
+           <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+           <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+           
+          </div>
+      </div>
+      <div class="img-detail-container">
+        <img src="./Asset/software.png" class="Img-container">
+
+      </img>
+      <div class="details-container">
+        <h1>Virtual Reality</h1>
+           <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+          <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+
+        </div>
+      </div>
+      <div class="img-detail-container">
+        <img src="./Asset/software.png" class="Img-container">
+
+        </img>
+        <div class="details-container">
+          <h1>Big Data</h1>
+           <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+          <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+
+        </div>
+      </div>
+      <div class="img-detail-container">
+        <img src="./Asset/software.png" class="Img-container">
+        
+      </img>
+      <div class="details-container">
+        <h1>Cloud computing</h1>
+        <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+        <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+        
+      </div>
+    </div>
+      <div class="img-detail-container">
+        <img src="./Asset/software.png" class="Img-container">
+
+        </img>
+        <div class="details-container">
+          <h1>Cyber Security</h1>
+          <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software.</p>          
+          <p class="btn"><a href="./Pages/software.html">View Roadmap</a></p>
+
+        </div>
+      </div>
+      <div class="img-detail-container">
+        <img src="./Asset/Ethical hacking.jpg" alt="" class="Img-container">
+        <div class="details-container">
+          <h1>Ethical Hacking</h1>
+          <p>Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. Carrying out an ethical hack involves duplicating strategies and actions of malicious attackers. ... Also known as “white hats,”</p>
+          <p class="btn"><a href="./Pages/ethical.html">View Roadmap</a></p>
+          
         </div>
       </div>
     </aside>
   </div>
+  <div id="makeitfull">
+    <a href="#review_section"><img src="./Asset/downarrow.jpeg" /></a>
+  </div>
+  <div class="review">
+    <div class="diffSection" id="review_section">
+      <center>
+        <p
+          style="
+            font-size: 40px;
+            padding: 100px;
+            padding-bottom: 40px;
+            color: #2e3d49;
+          "
+        >
+          What the Students Say About Us?
+        </p>
+      </center>
+    </div>
+    <div class="rev-container">
+      <div class="rev-card">
+        <div class="identity">
+          <img src="./Asset/review1.jpeg" />
+          <p>Sophie Daniel</p>
+          <h6>Android</h6>
+          <div class="rating">
+            <img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" /><img
+              src="./Asset/staricon.jpeg"
+            /><img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" />
+          </div>
+        </div>
+        <div class="rev-cont">
+          <p id="title">Review:</p>
+          <p id="content">
+            The Android Development roadmap really helps me alot. It was a
+            great experience. Everything is structured so beautifully,
+            actually the whole lot of content was really good. Best website
+            I've ever seen which makes learning a technology very lucid and
+            not only this I've found a very high paying job just because of
+            the roadmap....
+          </p>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="identity">
+          <img src="./Asset/review2.jpeg" />
+          <p>Clayton Clair</p>
+          <h6>C/C++</h6>
+          <div class="rating">
+            
+            <img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" /><img
+              src="./Asset/staricon.jpeg"
+            /><img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" />
+          </div>
+        </div>
+        <div class="rev-cont">
+          <p id="title">Review:</p>
+          <p id="content">
+            When I was watching "Dear Zindagi", I could relate Sharukh Khan to
+            Arnav Bhaiya. The way Sharukh Khan was giving life lessons to Alia
+            Bhatt, in the same way Arnav Bhaiya will give coding life lessons
+            which will guide you throughout your code life...
+          </p>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="identity">
+          <img src="./Asset/review3.jpeg" />
+          <p>Devyn Sethi</p>
+          <h6>JEE</h6>
+          <div class="rating">
+           
+            <img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" /><img
+              src="./Asset/staricon.jpeg"
+            /><img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" />
+          </div>
+        </div>
+        <div class="rev-cont">
+          <p id="title">Review:</p>
+          <p id="content">
+            LearnEd was an amazing experience for me. I belong to electronics
+            department and had a little experience in coding but I think it
+            has helped me think things through in a much more analytical
+            manner. Coding is important no matter which branch you are in. It
+            gives you a better understanding about how to approach a
+            problem...
+          </p>
+        </div>
+      </div>
+      <div class="rev-card">
+        <div class="identity">
+          <img src="./Asset/review4.jpeg" />
+          <p>Rylee Phillips</p>
+          <h6>Python</h6>
+          <div class="rating">
+            
+            <img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" /><img
+              src="./Asset/staricon.jpeg"
+            /><img src="./Asset/staricon.jpeg" /><img src="./Asset/staricon.jpeg" />
+          </div>
+        </div>
+        <div class="rev-cont">
+          <p id="title">Review:</p>
+          <p id="content">
+            This was my first complete course at coding blocks. I attended the
+            Python course in Winter 2020 and loved it which made me join the
+            full course. Shubham bhaiya and Ayush Bhaiya(TA) have good
+            knowledge about the field and were very helpful in making us
+            understand the concepts. I would certainly recommend this to
+            anyone...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
     <section>
       <div class="diffSection" id="about_section">
-        <center><p style="font-size: 50px; padding: 60px ;color:black;">About us</p></center>
+        <center><p style="font-size: 50px; padding: 60px ;color:black;text-align: center;">About us</p></center>
         <div class="about-content">
           <div class="side-image">
-            <img class="sideImage" src="https://thumbs.dreamstime.com/b/children-education-kid-read-book-school-boy-reading-books-dreaming-over-blackboard-background-92807607.jpg" />
+            <img class="sideImage" src="./Asset/aboutimg.jpg" />
           </div>
           <div class="side-text">
             <h2>What you think about us ?</h2>
             <p>
-              Education is the process of facilitating learning, or the
-              acquisition of knowledge, skills, values, beliefs, and habits.
-              Educational methods include teaching, training, storytelling,
-              discussion and directed research.<br />
-              Educational website can include websites that have games, videos
-              or topic related resources that act as tools to enhance learning
-              and supplement classroom teaching. These websites help make the
-              process of learning entertaining and attractive to the student,
-              especially in today's age. <br />Using HTML(HyperText Markup
-              Language), CSS(Cascading Style Sheet), JavaScript, we can make
-              learning more easier and in a interesting way.
+              TechRoad is a website that offers a wide variety of computer-based technology
+              roadmaps that are strategic plan that defines a goal or desired outcome and includes 
+              the major steps or milestones needed to reach it. You will get the roadmaps of each 
+              and every modern-day technologies, that will help you to explore and grow with the 
+              technology in a proper way. You just have to visit the site and select the technology 
+              you are interested in, you will get your well-designed roadmap or a strategic plan.
+              
+      
+              Our objective is to provide the best detailed and guided roadmaps of all 
+              technologies which would help aspiring students, working professionals, and 
+              amateur learners.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="contact-us">
-      <center id="contact-heading"><p>Contact US</p></center>
+
+
+    <div class="diffSection" id="portfolio_section">
+      <center>
+        <p class="port-para" style="font-size: 50px; padding: 100px; padding-bottom: 40px">
+          Portfolio
+        </p>
+      </center>
+      <div class="port-content">
+        <p>
+          “Education is the passport to the future, for tomorrow belongs to
+          those who prepare for it today.” “Your attitude, not your aptitude,
+          will determine your altitude.” “If you think education is expensive,
+          try ignorance.” “The only person who is educated is the one who has
+          learned how to learn …and change.”
+        </p>
+      </div>
+    </div>
+    <div class="extra">
+      <p>We're increasing this data every year</p>
+      <div class="smbox">
+        <span
+          ><center>
+            <div class="data">154</div>
+            <div class="det">Enrolled Students</div>
+          </center></span
+        >
+        <span
+          ><center>
+            <div class="data">62</div>
+            <div class="det">Total Courses</div>
+          </center></span
+        >
+        <span
+          ><center>
+            <div class="data">56</div>
+            <div class="det">Placed Students</div>
+          </center></span
+        >
+        <span
+          ><center>
+            <div class="data">27</div>
+            <div class="det">Total Projects</div>
+          </center></span
+        >
+      </div>
+    </div>
+    
+    <section class="contact-us" id="cu">
+      <center><p style="font-size: 50px; padding: 60px ;color:black;text-align: center;">Contact Us</p></center>
       <div class="skew"></div>
       <div class="form">
         <form action="mailto:farddinkhan733@gmail.com" method="post" >
@@ -341,7 +686,7 @@
           </div>
           <br><br><br>
           <div class="social-media">
-            <a href="#"><img src="./Asset/facebook.png"  /></a>
+            <a href="#"><img src="./Asset/icons8-facebook-90.png"  /></a>
             <a href="#"><img src="./Asset/insta.png" /></a>
             <a href="#"><img src="./Asset/twitter.png" /></a>
             <a href="#"><img src="./Asset/youtube_white.png" /></a>
